@@ -6,6 +6,8 @@ import { LinkFooter, SocialMedia } from "./link-footer";
 const Footer = () => {
     return (
         <footer className="border-t border-solid border-[#dbdbdb] pt-8 mt-10">
+            
+            {/* footer content */}
             <div className="my-0 mx-auto xl:w-[1200px] p-[20px] xs:p-[30px] sm:px-[50px] sm:py-[35px] md:px-[55] lg:px-[80px] xl:mt-8 text-center">
                 <div className="flex justify-between">
                     <div className="flex flex-col gap-6 md:gap-8 justify-start">
@@ -27,6 +29,8 @@ const Footer = () => {
                     </figure>
                 </div>
             </div>
+
+            {/* footer copyright */}
             <div className="p-5 xs:p-6 md:p-8 bg-[#264653] w-full text-center">
                 <p className="text-[13px] xs:text-[14px] lg:text-[15px] xl:text-[18px] text-[#fff]">LessCode Copyright | 2023</p>
             </div>

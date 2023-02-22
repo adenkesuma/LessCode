@@ -4,6 +4,8 @@ import HeaderSection from "../subHeader";
 import Card from "./card";
 
 const Testimonials = () => {
+
+    // initial object testimonials subHeader
     const testimonials = {
         title: "Apa Kata Mereka ?",
         paragraf: "Para Alumni dan Kontributor mengutarakan perasaan mereka setelah belajar dan berbagi ilmu dengan Lescode, Yuk baca apa kata mereka !"
@@ -11,10 +13,13 @@ const Testimonials = () => {
 
     return (
         <section className="my-0 mx-auto xl:w-[1200px] p-[20px] xs:p-[30px] sm:px-[50px] sm:py-[35px] md:px-[55] lg:px-[80px] xl:mt-8 text-center mt-3">
+            {/* testimonials subheader */}
             <HeaderSection 
                 title={testimonials.title}
                 paragraf={testimonials.paragraf}
             />
+
+            {/* testimonials cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <Card
                     title="Jenna Omega"

@@ -5,6 +5,7 @@ import facebook from "@/public/images/facebook.png";
 import discord from "@/public/images/discord.png";
 import instagram from "@/public/images/instagram.png";
 
+// link menu footer
 export const LinkFooter = () => {
     return (
         <ul className="flex flex-col justify-start items-start gap-1 sm:gap-2 md:gap-4 lg:gap-6">
@@ -27,6 +28,7 @@ export const LinkFooter = () => {
     )
 }
 
+// social medialist 
 export const SocialMedia = () => {
     return (
         <ul className="flex justify-start items-center gap-6">

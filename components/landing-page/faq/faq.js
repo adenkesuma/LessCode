@@ -2,6 +2,7 @@ import Dropdown from "./dropdown";
 import SubHeader from './../subHeader';
 
 const Faq = () => {
+    // initial object faq subHeader
     const Faq = {
         title: "FAQ",
         paragraf: "FAQ (Frequently Ask Question), berisi beberapa pertanyaan yang sering ditanyakan oleh para calon Web Developer yang ingin  belajar menggunakan Lescode"
@@ -9,10 +10,13 @@ const Faq = () => {
 
     return (
         <section id="faq" className="my-0 mx-auto xl:w-[1200px] p-[20px] xs:p-[30px] sm:px-[50px] sm:py-[35px] md:px-[55] lg:px-[80px] xl:mt-8 text-center mt-3">
+            {/* faq subheader */}
             <SubHeader
                 title={Faq.title}
                 paragraf={Faq.paragraf}
             />
+
+            {/* faqs features */}
             <div className="flex flex-col gap-5">
                 <Dropdown 
                     paragraf="Apakah LessCode akan berbayar kedepanya ?"

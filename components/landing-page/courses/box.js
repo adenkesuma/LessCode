@@ -4,6 +4,7 @@ import styled from "@/styles/Home.module.css";
 import Image from "next/image";
 import html from "@/public/images/html.png";
 
+// couse css and javascript cards
 export const Box = ({ title, paragraf, logo}) => {
     return (
         <div className="p-5 xs:p-6 sm:p-8 lg:p-12 border border-solid border-[#dbdbdb] rounded-xl shadow-lg flex flex-col items-center gap-5">
@@ -18,6 +19,7 @@ export const Box = ({ title, paragraf, logo}) => {
     )
 }
 
+// course html card
 export const CourseHtml = () => {
     return (
         <div className="p-5 xs:p-6 sm:p-8 lg:p-12 border border-solid border-[#dbdbdb] rounded-xl shadow-lg flex justify-center items-center flex-col md:flex-row gap-10 lg:gap-12">
@@ -36,6 +38,7 @@ export const CourseHtml = () => {
     )
 }
 
+// title course  
 export const TitleCourse = ({ title }) => {
     return (
         <div className={styled.lineText}>{title}</div>

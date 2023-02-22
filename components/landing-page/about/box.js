@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Join } from "../button";
 
+// learner and contributors card
 export const Box = ({count, description}) => {
     return (
         <div className="p-3 md:py-5 md:px-6 lg:py-6 lg:px-12 xl:p-8 rounded-lg border border-solid border-[#dbdbdb] text-center shadow-lg w-full">
@@ -13,6 +14,7 @@ export const Box = ({count, description}) => {
     )
 }
 
+// github card
 export const BoxGithub = () => {
     return (
         <div className="p-5 xs:p-6 sm:p-8 rounded-lg border border-solid border-[#dbdbdb] shadow-lg w-full md:w-[60%] flex flex-col gap-8">
@@ -30,7 +32,7 @@ export const BoxGithub = () => {
     )
 }
 
-
+// discord card
 export const BoxDiscord = () => {
     return (
         <div className="p-5 xs:p-6 sm:p-8 rounded-lg border border-solid border-[#dbdbdb] shadow-lg w-full md:w-[40%] text-center">

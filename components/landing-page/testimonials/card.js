@@ -2,6 +2,7 @@ import Image from "next/image";
 
 const Card = ({title, paragraf, profile, subTitle}) => {
     return (
+        // card testimonials user
         <div className="p-5 xs:p-6 sm:p-8 border border-solid border-[#dbdbdb] rounded-xl shadow-lg">
             <div className="flex items-center flex-col md:flex-row gap-4 mb-4 text-center md:text-left">
                 <Image className="w-10 sm:w-12" src={profile} alt="profile image"/>
