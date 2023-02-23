@@ -16,6 +16,9 @@ module.exports = {
         'lg': '900px',
         'xl': '1200px'
       },
+      fontFamily: {
+        heading: ['Poppins', 'sans-serif']
+      }
     },
   },
   plugins: [],

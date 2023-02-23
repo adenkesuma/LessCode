@@ -9,7 +9,7 @@ const Header = () => {
 
       {/* title and cta hero header */}
       <div className="flex flex-col gap-5 xl:gap-8 order-3 md:order-1 md:text-left">
-        <h1 className="text-[28px] xs:text-[40px] sm:text-[48px] md:text-[45px] lg:text-[55px] xl:text-[75px] text-center md:text-left font-bold text-[#E53D19] leading-tight">
+        <h1 className="text-[28px] xs:text-[45px] sm:text-[48px] md:text-[45px] lg:text-[55px] xl:text-[75px] text-center md:text-left font-bold text-[#E53D19] leading-tight">
           Start With Less <br /> 
           <span className="text-[#1a1a1a] font-bold">than Nothing</span>
         </h1>

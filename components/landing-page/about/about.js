@@ -15,7 +15,7 @@ const About = () => {
                 title={aboutText.title}
                 paragraf={aboutText.paragraf}
             />
-            <h3 className="text-[18px] xs:text-[25px] sm:text-[28px] lg:text-[30px] xl:text-[35px] font-semibold text-[#E53D19] text-center">Kamu tidak sendiri</h3>
+            <h3 className="text-[18px] xs:text-[25px] sm:text-[28px] lg:text-[30px] xl:text-[35px] font-bold text-[#E53D19] text-center">Kamu tidak sendiri</h3>
 
             {/* about layout */}
             <div>
