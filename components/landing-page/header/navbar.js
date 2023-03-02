@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
     return (
-        <nav className="fixed right-0 left-0 top-0 flex justify-between items-center bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg border-b border-[#dbdbdb] p-3 sm:p-5 lg:px-10 lg:py-5 xl:px-14">
+        <nav className="fixed right-0 left-0 top-0 flex justify-between items-center bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg border-b border-[#dbdbdb] p-3 sm:p-5 lg:px-10 lg:py-3 xl:px-14">
 
             {/* hamburger menu icon */}
             <span className="inline-block md:hidden">

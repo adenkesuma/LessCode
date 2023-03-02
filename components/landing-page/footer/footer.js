@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="border-t border-solid border-[#dbdbdb] pt-8 mt-10">
             
             {/* footer content */}
-            <div className="my-0 mx-auto xl:w-[1200px] p-[20px] xs:p-[30px] sm:px-[50px] sm:py-[35px] md:px-[55] lg:px-[80px] xl:mt-8 text-center">
+            <div className="flex justify-between my-0 mx-auto xl:w-[1200px] p-[20px] xs:p-[30px] sm:px-[50px] sm:py-[35px] md:px-[55] lg:px-[80px] xl:mt-6 text-center">
                 <div className="flex justify-between">
                     <div className="flex flex-col gap-6 md:gap-8 justify-start">
                         <figure className="flex items-center gap-3 xl:gap-5">
@@ -19,11 +19,11 @@ const Footer = () => {
                             Dapatkan Pelajaran Coding Berkualitas<br className="hidden md:block"/> oleh Komunitas Open Source
                         </p>
                         <SocialMedia />
+                        <LinkFooter />
                     </div>
                 </div>
 
                 <div className="flex justify-between items-end my-6">
-                    <LinkFooter />
                     <figure>
                         <Image className="w-32 xs:w-40 sm:w-56 md:w-64 lg:w-80 xl:w-96" src={footerImg} alt="footer image"/>
                     </figure>

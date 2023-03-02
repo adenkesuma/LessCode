@@ -8,7 +8,7 @@ import instagram from "@/public/images/instagram.png";
 // link menu footer
 export const LinkFooter = () => {
     return (
-        <ul className="flex flex-col justify-start items-start gap-1 sm:gap-2 md:gap-4 lg:gap-6">
+        <ul className="flex flex-col justify-start items-start gap-1 sm:gap-2 md:gap-4 lg:gap-6 lg:flex-row">
             <li>
                 <Link className="text-[12px] xs:text-[13px] lg:text-[15px] xl:text-[18px]" href="/">About</Link>
             </li>

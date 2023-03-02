@@ -5,7 +5,7 @@ import styled from "@/styles/Home.module.css";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center my-0 mx-auto xl:w-[1200px] md:justify-between flex-col gap-16 pt-28 px-[20px] xs:px-[30px] sm:pt-32 sm:px-[50px] md:px-[55px] lg:px-[80px] xl:pt-52 md:pb-12 md:flex-row md:gap-10 lg:gap-16 md:pt-44">
+    <header className="flex justify-between items-center my-0 mx-auto xl:w-[1200px] md:justify-between flex-col gap-16 pt-28 px-[20px] xs:px-[30px] sm:pt-32 sm:px-[50px] md:px-[55px] lg:px-[80px] xl:pt-[150px] md:pb-12 md:flex-row md:gap-10 lg:gap-16 md:pt-32">
 
       {/* title and cta hero header */}
       <div className="flex flex-col gap-5 xl:gap-8 order-3 md:order-1 md:text-left">
