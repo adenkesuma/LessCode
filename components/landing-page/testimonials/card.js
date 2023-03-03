@@ -11,7 +11,7 @@ const Card = ({title, paragraf, profile, subTitle}) => {
                     <span className="text-[12px] md:text-[13px] text-[#E53D19]">{subTitle}</span>
                 </div>
             </div>
-            <p className="text-center md:text-left text-[13px] xs:text-[14px] lg:text-[15px] xl:text-[18px] text-[#1a1a1a]">{paragraf}</p>
+            <p className="text-center md:text-left text-[13px] md:text-[14px] lg:text-[16px] text-[#1a1a1a]">{paragraf}</p>
         </div>
     )
 }

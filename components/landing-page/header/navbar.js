@@ -16,24 +16,24 @@ const Navbar = () => {
 
             {/* logo navbar */}
             <figure className="flex justify-center items-center gap-3 xl:gap-5">
-                <Image className="w-8 md:w-9 lg:w-12 xl:w-[50px]" src={logo} alt="logo" w={200} h={200}/>
-                <figcaption className="text-[16px] lg:text-[18px] xl:text-[24px] font-medium md:font-semibold xl:font-bold">LessCode</figcaption>
+                <Image className="w-8 md:w-9 lg:w-[40px]" src={logo} alt="logo" w={200} h={200}/>
+                <figcaption className="text-[14px] lg:text-[18px] font-medium md:font-semibold xl:font-bold">LessCode</figcaption>
             </figure>
 
             {/* link navbar */}
             <div className="hidden md:flex justify-center items-center md:gap-6 lg:gap-8">
                 <ul className="flex justify-center text-center md:gap-6 lg:gap-8 list-none">
                     <li>
-                        <a className="md:text-[14px] lg:text-[16px] xl:text-[20px] font-medium" href="#about">About</a>
+                        <a className="text-[14px] md:text-[16px] xl:text-[16px] font-medium" href="#about">About</a>
                     </li>
                     <li>
-                        <a className="md:text-[14px] lg:text-[16px] xl:text-[20px] font-medium" href="#course">Course</a>
+                        <a className="text-[14px] md:text-[16px] xl:text-[16px] font-medium" href="#course">Course</a>
                     </li>
                     <li>
-                        <a className="md:text-[14px] lg:text-[16px] xl:text-[20px] font-medium" href="#faq">FAQ</a>
+                        <a className="text-[14px] md:text-[16px] xl:text-[16px] font-medium" href="#faq">FAQ</a>
                     </li>
                     <li>
-                        <Link className="md:text-[14px] lg:text-[16px] xl:text-[20px] font-medium" href="/signin">Sign In</Link>
+                        <Link className="text-[14px] md:text-[16px] xl:text-[16px] font-medium" href="/signin">Sign In</Link>
                     </li> 
                 </ul>
                 <StartNow />

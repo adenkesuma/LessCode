@@ -8,21 +8,21 @@ import instagram from "@/public/images/instagram.png";
 // link menu footer
 export const LinkFooter = () => {
     return (
-        <ul className="flex flex-col justify-start items-start gap-1 sm:gap-2 md:gap-4 lg:gap-6 lg:flex-row">
+        <ul className="flex flex-col justify-start items-start gap-1 sm:gap-2 md:gap-4 lg:gap-6 md:flex-row">
             <li>
-                <Link className="text-[12px] xs:text-[13px] lg:text-[15px] xl:text-[18px]" href="/">About</Link>
+                <Link className="text-[12px] md:text-[13px] lg:text-[16px]" href="/">About</Link>
             </li>
             <li>
-                <Link className="text-[12px] xs:text-[13px] lg:text-[15px] xl:text-[18px]" href="/">FAQ</Link>
+                <Link className="text-[12px] md:text-[13px] lg:text-[16px]" href="/">FAQ</Link>
             </li>
             <li>
-                <Link className="text-[12px] xs:text-[13px] lg:text-[15px] xl:text-[18px]" href="/">Course</Link>
+                <Link className="text-[12px] md:text-[13px] lg:text-[16px]" href="/">Course</Link>
             </li>
             <li>
-                <Link className="text-[12px] xs:text-[13px] lg:text-[15px] xl:text-[18px]" href="/">Contribute</Link>
+                <Link className="text-[12px] md:text-[13px] lg:text-[16px]" href="/">Contribute</Link>
             </li>
             <li>
-                <Link className="text-[12px] xs:text-[13px] lg:text-[15px] xl:text-[18px]" href="/">Terms of use</Link>
+                <Link className="text-[12px] md:text-[13px] lg:text-[16px]" href="/">Terms of use</Link>
             </li>
         </ul>
     )
@@ -34,22 +34,22 @@ export const SocialMedia = () => {
         <ul className="flex justify-start items-center gap-6">
             <li>
                 <Link href="/">
-                    <Image className="w-5 md:w-7 lg:w-9" src={github} alt="github"/>
+                    <Image className="w-4 md:w-5 lg:w-7" src={github} alt="github"/>
                 </Link>
             </li>
             <li>
                 <Link href="/">
-                    <Image className="w-5 md:w-7 lg:w-9" src={discord} alt="discord"/>
+                    <Image className="w-4 md:w-5 lg:w-7" src={discord} alt="discord"/>
                 </Link>
             </li>
             <li>
                 <Link href="/">
-                    <Image className="w-5 md:w-7 lg:w-9" src={facebook} alt="facebook"/>
+                    <Image className="w-4 md:w-5 lg:w-7" src={facebook} alt="facebook"/>
                 </Link>
             </li>
             <li>
                 <Link href="/">
-                    <Image className="w-5 md:w-7 lg:w-9" src={instagram} alt="instagram"/>
+                    <Image className="w-4 md:w-5 lg:w-7" src={instagram} alt="instagram"/>
                 </Link>
             </li>
         </ul>

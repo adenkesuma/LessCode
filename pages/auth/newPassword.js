@@ -18,7 +18,7 @@ const NewPassword = () => {
                     />
                     <label htmlFor="confirm-password" className="font-semibold text-[16px] mb-2">Konfirmasi Password</label>
                     <input 
-                        className="border-[#dbdbdb] border-solid border rounded-md block py-2 px-5 w-72 md:w-80"
+                        className="border-[#dbdbdb] border-solid border rounded-md block py-2 px-5 w-72 md:w-80 mb-6"
                         type="password" 
                         id="confirm-password" 
                         name="confirm-password" 
