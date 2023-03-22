@@ -5,7 +5,7 @@ import { LinkFooter, SocialMedia } from "./link-footer";
 
 const Footer = () => {
     return (
-        <footer className="border-t border-solid border-[#dbdbdb] pt-4 mt-8">
+        <footer className="border-t border-solid border-[#dbdbdb] pt-4">
             
             {/* footer content */}
             <div className="md:flex md:justify-between my-0 mx-auto xl:w-[1200px] p-[20px] xs:p-[30px] sm:px-[50px] sm:py-[35px] md:px-[55] lg:px-[80px] xl:mt-6 text-center">

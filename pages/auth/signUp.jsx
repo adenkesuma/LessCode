@@ -2,6 +2,7 @@ import Link from "next/link";
 import Discord from "@/public/images/discord.png";
 import Google from "@/public/images/google.png";
 import Image from "next/image";
+import { useState } from 'react';
 
 const SignUp = () => {
     return (
@@ -32,7 +33,9 @@ const SignUp = () => {
                         name="confirm-password" 
                     />
                     <p className="text-[14px] my-4">Dengan mendaftar berarti anda telah<br /> menyetujui persyaratan penggunaan kami</p>
-                    <button className="w-full py-2 px-3 bg-[#264653] text-[#fff] rounded-lg mb-4">Masuk</button>
+                    <Link href="/courses" className="text-center w-full py-2 px-3 bg-[#264653] text-[#fff] rounded-lg mb-4">
+                        Masuk
+                    </Link>
                     <div className="flex justify-center gap-4 items-center w-full">
                         <button className="w-full font-semibold text-[14px] py-2 px-5 flex justify-center items-center gap-3 border border-[#dbdbdb] border-solid rounded-md shadow-lg">
                             <Image className="w-5" src={Google} alt="logo google" />
