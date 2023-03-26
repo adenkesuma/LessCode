@@ -6,5 +6,5 @@ export default function Home() {
     <div className={styled.scroll}>
       <Main />
     </div>
-  );
+  )
 }
