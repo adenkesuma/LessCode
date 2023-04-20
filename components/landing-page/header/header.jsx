@@ -8,7 +8,7 @@ const Header = () => {
     <header className="flex justify-between items-center my-0 mx-auto xl:w-[1200px] md:justify-between flex-col gap-16 pt-28 px-[20px] xs:px-[30px] sm:pt-32 sm:px-[50px] md:px-[55px] lg:px-[80px] xl:pt-[130px] md:pb-12 md:flex-row md:gap-10 lg:gap-16 md:pt-32">
       {/* title and cta hero header */}
       <div className="flex flex-col gap-5 xl:gap-8 order-3 md:order-1 md:text-left">
-        <h1 className="text-[28px] text-[#00094B] xs:text-[28px] sm:text-[30px] lg:text-[42px] xl:text-[48px] text-center md:text-left font-semibold leading-tight">
+        <h1 className="text-[28px] text-[#00094B] xs:text-[34px] sm:text-[30px] lg:text-[42px] xl:text-[48px] text-center md:text-left font-semibold leading-tight">
           <em>Start With Less</em> <br />
           <span className="font-bold">than Nothing</span>
           <br />
@@ -28,7 +28,7 @@ const Header = () => {
       {/* image hero header */}
       <figure className="inline-block text-center order-1 md:order-3">
         <Image
-          className="w-[200px] xs:w-[250px] sm:w-[300px] md:w-[450px] lg:w-[400px] xl:w-[450px]"
+          className="w-[240px] xs:w-[270px] sm:w-[300px] md:w-[450px] lg:w-[400px] xl:w-[450px]"
           src={hero}
           alt="hero banner"
         />
