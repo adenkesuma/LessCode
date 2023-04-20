@@ -40,9 +40,9 @@ const Navbar = () => {
             </div>
 
             {/* user icon */}
-            <span className="inline-block xs:hidden">
+            {/* <span className="inline-block xs:hidden">
                 <FontAwesomeIcon className="w-6 h-6 text-[#1a1a1a]" icon={faUser}/>
-            </span>
+            </span> */}
         </nav>
     )
 }
